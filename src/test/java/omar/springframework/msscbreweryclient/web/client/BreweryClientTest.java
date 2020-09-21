@@ -30,4 +30,10 @@ class BreweryClientTest {
 
         assertNotNull(location.toString());
     }
+    @Test
+    void updateBeer(){
+        BeerDto dto = BeerDto.builder().beerName("New Beer").build();
+
+        client.updateBeer(UUID.randomUUID(), dto);
+    }
 }
