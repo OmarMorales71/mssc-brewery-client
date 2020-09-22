@@ -1,4 +1,4 @@
-package omar.springframework.msscbreweryclient;
+package omar.springframework.msscbreweryclient.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
